@@ -1,0 +1,24 @@
+/*-------------------------------------------------------- Navbar -------------------------------------------------------- */
+body {
+    margin: 0px;
+}
+.nav-parent {
+    height: 695px;
+    width: 100%;
+    background-image: url('../images/div1Bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav-cont {
+    height: 80px;
+    width: 600px;
+    border: 1px solid red;
+}
+.nav-child {
+}
+/*-------------------------------------------------------- Navbar -------------------------------------------------------- */
+
