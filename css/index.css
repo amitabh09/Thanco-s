@@ -21,4 +21,14 @@ body {
 .nav-child {
 }
 /*-------------------------------------------------------- Navbar -------------------------------------------------------- */
-
+.nav-parent2 {
+    height: 695px;
+    width: 100%;
+    background-image: url('https://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
