@@ -1,34 +1,117 @@
 /*-------------------------------------------------------- Navbar -------------------------------------------------------- */
-body {
+* {
     margin: 0px;
 }
-.nav-parent {
-    height: 695px;
+.parent1 {
+    height: 735px;
     width: 100%;
     background-image: url('../images/div1Bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 .nav-cont {
+    padding-left: 290px;
+    padding-right: 290px;
     height: 80px;
-    width: 600px;
-    border: 1px solid red;
+    width: 960px;
+    background-color: rgba(0, 0, 0, 0.09);
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 550;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
 }
 .nav-child {
 }
 /*-------------------------------------------------------- Navbar -------------------------------------------------------- */
-.nav-parent2 {
-    height: 695px;
-    width: 100%;
+.parent2 {
+
+    height: 735px;
+    padding-left: 220px;
+    padding-right: 220px;
     background-image: url('https://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    padding-top: 120px;
+    /* align-items: center; */
 }
+.parent2>div {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    line-height: 2.3;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 520;
+    color: #ffffff;
+}
+.parent2>div>h3 {
+    color: #a50018;
+}
+
+.parent3 {
+    margin-top: 180px;
+    height: 690px;
+    padding-left: 220px;
+    padding-right: 220px;
+    background-image: url('	https://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-Flav-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.parent3-div1 {
+    width: 320px;
+    height: 570px;
+    background-image: url('	https://www.thancosnatural.com/wp-content/uploads/2017/12/Flavours.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.parent3-div2 {
+    width: 320px;
+    height: 570px;
+    background-image: url('https://www.thancosnatural.com/wp-content/uploads/2017/12/Stores.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.parent3-div3 {
+    width: 320px;
+    height: 570px;
+    background-image: url('https://www.thancosnatural.com/wp-content/uploads/2017/12/Franchise.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.parent3>div>h3 {
+    padding-top: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+.parent3>div>p {
+    padding: 0px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+    color: white;
+    text-align: justify;
+}
+
