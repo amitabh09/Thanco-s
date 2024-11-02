@@ -16,10 +16,6 @@
     height: 80px;
     width: 960px;
     background-color: rgba(0, 0, 0, 0.09);
-    font-size: 19px;
-    font-family: sans-serif;
-    font-weight: 550;
-    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,7 +23,16 @@
     position: fixed;
 }
 .nav-child {
+    cursor: pointer;
 }
+.nav-child>a{
+    text-decoration: none;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 550;
+    color: white;
+}
+
 /*-------------------------------------------------------- Navbar -------------------------------------------------------- */
 .parent2 {
 
